@@ -1,0 +1,129 @@
+@font-face {
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-family:"Roboto";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+        background: linear-gradient(297deg, #E8EFFC 0%, #FFF 100%);
+        overflow: hidden;
+}
+
+.title{
+    font-family: "Roboto";
+    color: #43484D;
+    font-size: 50px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 300px;
+}
+
+.d-flex{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 355px;
+    border-radius: 5px;
+    box-shadow: 0.82374507188797px 1.64749014377594px 2.4712350368499756px 0px rgba(0, 0, 0, 0.10);
+}
+
+.header{
+    color: #43484D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26.36px;
+    font-weight: 300;
+}
+
+.text1{
+    color: #86939E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13.18px;
+    font-weight: 400;
+}
+
+.line1{
+    width: 300px;
+    height: 1px;
+    background-color: #E1E8EE;
+    margin-top: 30px;
+}
+
+.bottom-box{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.left-text{
+    color: #7DC855;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 42.835px;
+    font-weight: 300;
+}
+
+.text2{
+    color: #86939E;
+    font-family: Roboto;
+    font-size: 11.532px;
+    display: flex;
+    align-items: center;    
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+button{
+    width: 247.124px;
+    height: 49.425px;
+    border-radius: 5px;
+    background: #7DC855;
+    color: white;
+    font-family: Roboto;
+    font-size: 13.18px;
+    border: none;
+}
+
+
+.left-text2{
+    color: #43484D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 42.835px;
+    font-weight: 200;
+}
+
+.svg{
+    position:absolute;
+    margin-left: 260px;
+}
+
+.line2{
+    width: 300px;
+    height: 1px;
+    background-color: #E1E8EE;
+    margin-top: 46px;
+}
+
+.bottom-box2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: -9px;
+}
