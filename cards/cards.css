@@ -35,6 +35,7 @@ body{
     height: 355px;
     border-radius: 5px;
     box-shadow: 0.82374507188797px 1.64749014377594px 2.4712350368499756px 0px rgba(0, 0, 0, 0.10);
+    background-color: white;
 }
 
 .header{
